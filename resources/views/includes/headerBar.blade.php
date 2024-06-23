@@ -4,37 +4,35 @@
             <a class="navbar-brand" href="{{ route('home', app()->getLocale()) }}">
                 <span>{{ __('messages.healet') }}</span>
             </a>
-            <div class="" id="">
-                <div class="custom_menu-btn">
-                    <button onclick="openNav()">
-                        <span class="s-1"> </span>
-                        <span class="s-2"> </span>
-                        <span class="s-3"> </span>
-                    </button>
-                    <div id="myNav" class="overlay">
-                        <div class="overlay-content">
-                            <a href="{{ route('home', app()->getLocale()) }}">{{ __('messages.home') }}</a>
-                            <a href="{{ route('about', app()->getLocale()) }}">{{ __('messages.about') }}</a>
-                            <a href="{{ route('shop', app()->getLocale()) }}">{{ __('messages.shop') }}</a>
-                            <a href="{{ route('blog', app()->getLocale()) }}">{{ __('messages.blog') }}</a>
-                            <!-- Language Switch Links -->
-                            <a href="{{ LaravelLocalization::getLocalizedURL('en') }}">{{ __('messages.english') }}</a>
-                            <a href="{{ LaravelLocalization::getLocalizedURL('ar') }}">{{ __('messages.arabic') }}</a>
+            <button class="navbar-toggler" type="button" onclick="openNav()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home', app()->getLocale()) }}">{{ __('messages.home') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('about', app()->getLocale()) }}">{{ __('messages.about') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('shop', app()->getLocale()) }}">{{ __('messages.shop') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('blog', app()->getLocale()) }}">{{ __('messages.blog') }}</a>
+                    </li>
+                    <!-- Language Switch Links -->
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ strtoupper(app()->getLocale()) }}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ LaravelLocalization::getLocalizedURL('en') }}">{{ __('messages.english') }}</a>
+                            <a class="dropdown-item" href="{{ LaravelLocalization::getLocalizedURL('ar') }}">{{ __('messages.arabic') }}</a>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
 </header>
-
-<script>
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-
-    document.documentElement.setAttribute('dir', '{{ app()->getLocale() == "ar" ? "rtl" : "ltr" }}');
-</script>

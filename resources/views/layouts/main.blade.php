@@ -14,6 +14,11 @@
   <!-- footer section -->
   <!-- jQery -->
  @include('includes.js')
+ <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+    </script>
 </body>
 
 </html>

@@ -23,10 +23,10 @@ Route::group(
 Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::get('/wpad.dat', function () {
+//Route::get('/wpad.dat', function () {
     // You can return a specific response or redirect as per your requirement
-    return response()->json(['message' => 'WPAD request handled.'], 200);
-});
+   // return response()->json(['message' => 'WPAD request handled.'], 200);
+//});
 //####login ###(Route to display the login form)
 Route::get('/login1', [LoginController::class, 'showLoginForm'])->name('login');
 
