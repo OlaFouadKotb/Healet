@@ -9,6 +9,10 @@ use App\Mail\HealetMail;
 use App\Mail\ContactMail;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\VerificationController;
+use Illuminate\Support\Facades\Auth;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+use GuzzleHttp\Middleware;
 
 Route::group(
     [
@@ -18,6 +22,10 @@ Route::group(
 // Welcome route
 Route::get('/welcome', function () {
     return view('welcome');
+});
+Route::get('/wpad.dat', function () {
+    // You can return a specific response or redirect as per your requirement
+    return response()->json(['message' => 'WPAD request handled.'], 200);
 });
 //####login ###(Route to display the login form)
 Route::get('/login1', [LoginController::class, 'showLoginForm'])->name('login');

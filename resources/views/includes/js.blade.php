@@ -11,4 +11,8 @@
     function closeNav() {
         document.getElementById("myNav").style.width = "0%";
     }
+    function FindProxyForURL(url, host) {
+    // Return 'DIRECT' to indicate that no proxy should be used
+    return 'DIRECT';
+}
 </script>
