@@ -3,7 +3,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Latest From Blog
+        {{__('messages.latest_blog')}}
         </h2>
       </div>
       <div class="row">
@@ -24,7 +24,8 @@
                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
               </p>
               <a href="">
-                Read More
+              {{__('messages.read')}}
+              
               </a>
             </div>
           </div>
@@ -46,7 +47,7 @@
                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
               </p>
               <a href="">
-                Read More
+              {{__('messages.read')}}
               </a>
             </div>
           </div>

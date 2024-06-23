@@ -1,0 +1,15 @@
+body[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+.navbar {
+    float: right;
+}
+
+.overlay-content a {
+    float: right;
+}
+
+/* Ensure all other necessary components are adjusted for RTL */
+/* Add more specific RTL styles as needed */

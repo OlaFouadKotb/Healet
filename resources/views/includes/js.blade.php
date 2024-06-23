@@ -4,3 +4,11 @@
   <script src="{{asset('assets/js/bootstrap.js')}}"></script>
   <!-- custom js -->
   <script src="{{asset('assets/js/custom.js')}}"></script>
+  <script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>

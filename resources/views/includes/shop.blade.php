@@ -4,7 +4,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Latest Products
+          {{ __('messages.LatestPro') }}
         </h2>
       </div>
       <div class="row">
@@ -16,10 +16,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Necklace
+                {{ __('messages.Necklace') }}
                 </h6>
                 <h6>
-                  Price
+                  {{ __('messages.Price') }}
                   <span>
                     $200
                   </span>
@@ -27,7 +27,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                  {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -41,10 +41,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Necklace
+                  {{ __('messages.Necklace') }}
                 </h6>
                 <h6>
-                  Price
+                  {{ __('messages.Price') }}
                   <span>
                     $300
                   </span>
@@ -52,7 +52,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                  {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -66,10 +66,11 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Necklace
+                {{ __('messages.Necklace') }}
                 </h6>
                 <h6>
-                  Price
+                  
+                {{ __('messages.Price') }}
                   <span>
                     $110
                   </span>
@@ -77,7 +78,8 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                  
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -91,10 +93,11 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                  
+                {{ __('messages.Ring') }}
                 </h6>
                 <h6>
-                  Price
+                {{ __('messages.Price') }}
                   <span>
                     $45
                   </span>
@@ -102,7 +105,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -116,10 +119,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                {{ __('messages.Ring') }}
                 </h6>
                 <h6>
-                  Price
+                {{ __('messages.Price') }}
                   <span>
                     $95
                   </span>
@@ -127,7 +130,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -141,10 +144,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Earrings
+                {{ __('messages.Earings') }}
                 </h6>
                 <h6>
-                  Price
+                {{ __('messages.Price') }}
                   <span>
                     $70
                   </span>
@@ -152,7 +155,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -166,10 +169,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Earrings
+                {{ __('messages.Earings') }}
                 </h6>
                 <h6>
-                  Price
+                {{ __('messages.Price') }}
                   <span>
                     $400
                   </span>
@@ -177,7 +180,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -191,10 +194,10 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Necklace
+                {{ __('messages.Necklace') }}
                 </h6>
                 <h6>
-                  Price
+                {{ __('messages.Price') }}
                   <span>
                     $450
                   </span>
@@ -202,7 +205,7 @@
               </div>
               <div class="new">
                 <span>
-                  New
+                {{ __('messages.New') }}
                 </span>
               </div>
             </a>
@@ -211,7 +214,7 @@
       </div>
       <div class="btn-box">
         <a href="">
-          View All Products
+        {{ __('messages.view_Products') }}
         </a>
       </div>
     </div>

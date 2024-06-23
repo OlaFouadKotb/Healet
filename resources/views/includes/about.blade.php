@@ -12,14 +12,14 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+              {{__('messages.About Us')}}
               </h2>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
+              We are online shop for Jewellery
             </p>
             <a href="">
-              Read More
+            {{__('messages.read')}}
             </a>
           </div>
         </div>

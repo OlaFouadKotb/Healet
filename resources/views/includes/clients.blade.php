@@ -3,7 +3,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Testimonial
+        {{__('messages.Testi')}}
         </h2>
       </div>
       <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
@@ -22,9 +22,7 @@
                       </h6>
                     </div>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
+                  good Products
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
@@ -46,9 +44,7 @@
                       </h6>
                     </div>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
+                good Products
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
@@ -66,13 +62,11 @@
                   <div class="detail-box">
                     <div class="name">
                       <h6>
-                        Samantha Jonas
+                        Ola 
                       </h6>
                     </div>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
+                  successful experience
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                   </div>

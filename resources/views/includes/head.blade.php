@@ -10,7 +10,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Healet</title>
+  <title>{{__('messages.healet')}}</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.css')}}" />
@@ -20,3 +20,4 @@
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" />
   <!-- responsive style -->
   <link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet" />
+z

@@ -7,10 +7,10 @@
             <img src="{{asset('assets/images/o1.jpg')}}" alt="">
             <div class="detail-box">
               <h2>
-                Upto 15% Off
+              {{__('messages.up15')}}
               </h2>
               <a href="">
-                Shop Now
+              {{__('messages.shop_now')}}
               </a>
             </div>
           </div>
@@ -20,10 +20,10 @@
             <img src="{{asset('assets/images/o2.jpg')}}" alt="">
             <div class="detail-box">
               <h2>
-                Upto 10% Off
+              {{__('messages.up10')}}
               </h2>
               <a href="">
-                Shop Now
+              {{__('messages.shop_now')}}
               </a>
             </div>
           </div>
@@ -31,10 +31,10 @@
             <img src="{{asset('assets/images/o3.jpg')}}" alt="">
             <div class="detail-box">
               <h2>
-                Upto 20% Off
+              {{__('messages.up20')}}
               </h2>
               <a href="">
-                Shop Now
+              {{__('messages.shop_now')}}
               </a>
             </div>
           </div>

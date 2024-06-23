@@ -9,6 +9,12 @@ use App\Mail\HealetMail;
 use App\Mail\ContactMail;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
+
+Route::group(
+    [
+    'prefix' => LaravelLocalization::setLocale(),
+    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){
 // Welcome route
 Route::get('/welcome', function () {
     return view('welcome');
@@ -56,3 +62,4 @@ Auth::routes(['verify' => true]);
 
 // Verified middleware route
 Route::get('/a', [HomeController::class, 'index'])->middleware('verified')->name('a');
+    });
