@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'welcome to shop route';
+    return 'welcome to admin route';
 });
